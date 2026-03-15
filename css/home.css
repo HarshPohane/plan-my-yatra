@@ -1,0 +1,279 @@
+.main-hero-section{
+   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/home-page-image-.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh; 
+   
+}
+
+.main-content{
+   margin-left: 6%;
+   margin-top: 80px;
+}
+.highlighted-main-content{
+   color: #fab95b;
+   display: flex;
+   padding-top: 30px;
+   flex-direction: row;
+   margin-bottom: 30px;
+
+}
+.highlighted-text{
+   padding-right: 20px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 8px;
+}
+
+.sub-content{
+   font-size: 70px;
+   color: #E6501B;
+   margin-bottom: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-weight: 900;
+}
+
+.heading-1{
+   color: white;
+}
+
+.main-info{
+   color:white;
+   font-size: 20px;
+   width: 1000px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Destination-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 30px;
+   margin-top: 40px;
+   background-color: white;
+   width: 800px;
+   padding: 10px;
+   border-radius: 30px;
+
+}
+
+.Destination-input{
+   border: none;
+   outline: none;
+   font-size: 16px;
+
+}
+
+.btn-search{
+   background-color:#E6501B;
+   color:white;
+   border: none;
+   padding: 10px 5px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.recommedations{
+   margin-top: 30px;
+   color: white;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 20px;
+}
+.recommedations-items{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.recommedations-count{
+   font-size: 30px;
+   font-weight: 700;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Destination-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 200px;
+   font-weight: 700;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Destination-section-heading{
+   font-size: 40px;
+}
+
+.Destination-section-container{
+   display: flex;
+   flex-direction: row;
+   gap: 30px;
+   margin-top: 30px;
+}
+
+.Destination-section-items-1{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/taj-mahal-reflecting-in-the-water-pool-during-a-sunny-day-photo.webp);
+   background-size: cover;
+   background-position: center;
+   width: 300px;
+   height: 400px ;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end ;
+}
+
+.card-info{
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+.card-top-info{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 10px;
+}
+.card-name{
+   color:white;
+   font-size: 15px;
+   font-weight: 700;
+   
+
+}
+.card-price{
+   color: white;
+   font-size: 15px;
+   font-weight: 700;
+   padding-right: 30px;
+}
+.card-bottom-info{
+   color: white;
+   font-size: 15px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 5px;
+   font-weight: 400;
+}
+.btn-book{
+   background-color: #E6501B;
+   border: none;
+   padding: 10px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+
+.Destination-section-items-2{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.Destination-section-items-2-sub-1{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/mountains-of-manali.webp);
+   background-size: cover;
+   background-position: center;
+   width: 300px;
+   height: 195px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+}
+.Destination-section-items-2-sub-2{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/goa.webp);
+   background-size: cover;
+   background-position: center;
+   width: 300px;
+   height: 195px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   
+}
+
+.Destination-section-items-3{
+   display:flex;
+   flex-direction: column;
+   gap:5px;
+}
+
+.Destination-section-items-3-sub-1{
+   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./../images/stone-chariot-hampi.webp);
+   background-size: cover;
+   background-position: center;
+   width: 300px;
+   height: 195px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   
+}
+   
+.Destination-section-items-3-sub-2{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/aasam.webp);
+   background-size: cover;
+   background-position: center;
+   width: 300px;
+   height: 195px;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: end;
+   
+}
+.work-section-container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.work-section-heading{
+   font-size: 40px;
+   font-weight: 700;
+}
+.work-section-description{
+   margin-top: 10px;
+   font-weight: 700;
+}
+.work-section-card-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   gap: 30px;
+   margin-top: 30px;
+   margin-right: 100px;
+   margin-left: 100px;
+}
+.work-card-heading{
+   font-size: 20px;
+   font-weight: 700;
+}
+.work-section-card-container-items{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 10px;
+   background-color: white;
+   padding: 20px;
+   border-radius: 10px;
+   height: 200px;
+   width: 200px;
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.work-section-card-container-items:hover{
+   border: 1px solid #E6501B;
+   transition: border 0.6s ease;
+
+}
