@@ -25,3 +25,15 @@
 .footer-child-item{
  width: 15%;
 }
+.heading-icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.footer-child-item h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
